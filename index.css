@@ -1,0 +1,193 @@
+body{
+    background-color: #000;
+    font-family: sans-serif;
+    cursor: default !important;;
+}
+
+.cards{
+  position: relative;
+  margin-left: 70px;
+}
+
+.cards .card1{
+    background: #fff !important; /* background */
+    height: 370px !important; /* height */
+    width: 250px !important; /* width */
+    border-radius: 10px; /* border radius */
+}
+
+.cards .card1 h1{
+    text-align: center !important; /* text align */
+    position: relative;
+    transform: translateY(20px); /* transform y position */
+    font-weight: 400 !important; /* font weight */
+}
+
+.cards .card1 .image img{
+    height: 200px !important; /* height */
+    border-radius: 50% !important; /* border radius */
+    margin-left: 25px !important; /* margin left */
+    cursor: pointer; /* cursor pointer */
+}
+
+.cards .card1 .image img:hover{
+    filter: brightness(120%); /* brightness */
+}
+
+.cards .card1 .image .about{
+    font-size: 12px; /* font size */
+    margin-left: 20px !important; /* margin left */
+    cursor: text; /* cursor text */;
+}
+
+/* card #2 */
+.cards .card2{
+  background: #09ff00 !important; /* background */
+  height: 370px !important; /* height */
+  width: 250px !important; /* width */
+  border-radius: 10px; /* border radius */
+  transform: translateY(-392px); /* transform y position */
+  margin-left: 260px;
+}
+
+.cards .card2 h1{
+  text-align: center !important; /* text align */
+  position: relative;
+  transform: translateY(20px); /* transform y position */
+  font-weight: 400 !important; /* font weight */
+}
+
+.cards .card2 .image img{
+  height: 200px !important; /* height */
+  border-radius: 50% !important; /* border radius */
+  margin-left: 25px !important; /* margin left */
+  cursor: pointer; /* cursor pointer */
+}
+
+.cards .card2 .image img:hover{
+  filter: brightness(120%); /* brightness */
+}
+
+.cards .card2 .image .about{
+  font-size: 12px; /* font size */
+  margin-left: 20px !important; /* margin left */
+  cursor: text; /* cursor text */;
+}
+
+/* card #3 */
+.cards .card3{
+  background: #fa0202 !important; /* background */
+  height: 370px !important; /* height */
+  width: 250px !important; /* width */
+  border-radius: 10px; /* border radius */
+  transform: translateY(-784px); /* transform y position */
+  margin-left: 520px;
+}
+
+.cards .card3 h1{
+  text-align: center !important; /* text align */
+  position: relative;
+  transform: translateY(20px); /* transform y position */
+  font-weight: 400 !important; /* font weight */
+}
+
+.cards .card3 .image img{
+  height: 200px !important; /* height */
+  border-radius: 50% !important; /* border radius */
+  margin-left: 25px !important; /* margin left */
+  cursor: pointer; /* cursor pointer */
+}
+
+.cards .card3 .image img:hover{
+  filter: brightness(120%); /* brightness */
+}
+
+.cards .card3 .image .about{
+  font-size: 12px; /* font size */
+  margin-left: 20px !important; /* margin left */
+  cursor: text; /* cursor text */;
+}
+
+/* card #4 */
+.cards .card4{
+  background: #021ffa !important; /* background */
+  height: 370px !important; /* height */
+  width: 250px !important; /* width */
+  border-radius: 10px; /* border radius */
+  transform: translateY(-1176px); /* transform y position */
+  margin-left: 780px;
+}
+
+.cards .card4 h1{
+  text-align: center !important; /* text align */
+  position: relative;
+  transform: translateY(20px); /* transform y position */
+  font-weight: 400 !important; /* font weight */
+}
+
+.cards .card4 .image img{
+  height: 200px !important; /* height */
+  border-radius: 50% !important; /* border radius */
+  margin-left: 25px !important; /* margin left */
+  cursor: pointer; /* cursor pointer */
+}
+
+.cards .card4 .image img:hover{
+  filter: brightness(120%); /* brightness */
+}
+
+.cards .card4 .image .about{
+  font-size: 12px; /* font size */
+  margin-left: 20px !important; /* margin left */
+  cursor: text; /* cursor text */;
+}
+
+/* card #5 */
+.cards .card5{
+  background: #fac802 !important; /* background */
+  height: 370px !important; /* height */
+  width: 250px !important; /* width */
+  border-radius: 10px; /* border radius */
+  transform: translateY(-1567px); /* transform y position */
+  margin-left: 1040px;
+}
+
+.cards .card5 h1{
+  text-align: center !important; /* text align */
+  position: relative;
+  transform: translateY(20px); /* transform y position */
+  font-weight: 400 !important; /* font weight */
+}
+
+.cards .card5 .image img{
+  height: 200px !important; /* height */
+  border-radius: 50% !important; /* border radius */
+  margin-left: 25px !important; /* margin left */
+  cursor: pointer; /* cursor pointer */
+}
+
+.cards .card5 .image img:hover{
+  filter: brightness(120%); /* brightness */
+}
+
+.cards .card5 .image .about{
+  font-size: 12px; /* font size */
+  margin-left: 20px !important; /* margin left */
+  cursor: text; /* cursor text */;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1224px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20pxx ;
+  }
+
+  .cards .card1, .cards .card2, .cards .card3, .cards .card4, .cards .card5 {
+    margin-top: 30px;
+    transform: none;
+  }
+}
